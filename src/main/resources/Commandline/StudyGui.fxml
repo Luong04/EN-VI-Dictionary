@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="1030.0" styleClass="studyPane" stylesheets="@../Utils/Style.css " xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.StudyController">
+   <children>
+      <Label fx:id="questionLabel" alignment="CENTER" layoutX="66.0" layoutY="88.0" prefHeight="310.0" prefWidth="686.0" styleClass="questionLabel" wrapText="true" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="65.19999999999993" />
+      <ImageView fx:id="backButton" fitHeight="58.0" fitWidth="108.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Utils/image/left-arrow.png" />
+         </image>
+      </ImageView>
+      <StackPane fx:id="stackPane" layoutX="79.0" layoutY="418.0" prefHeight="124.0" prefWidth="659.0" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="79.0" AnchorPane.rightAnchor="79.0" />
+      <ImageView fx:id="correctLabel" fitHeight="296.0" fitWidth="450.0" layoutX="761.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Utils/image/outputonlinegiftools.gif" />
+         </image></ImageView>
+      <ImageView fx:id="wrongLabel" fitHeight="58.0" fitWidth="71.0" layoutX="929.0" layoutY="58.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Utils/image/wrongLabel.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
